@@ -1,0 +1,38 @@
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
+# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
+# llm:
+#   api_type: "openai"  # or azure / ollama / open_llm etc. Check LLMType for more options
+#   model: "gpt-4-turbo-preview"  # or gpt-3.5-turbo-1106 / gpt-4-1106-preview
+#   base_url: "https://api.openai.com/v1"  # or forward url / other llm url
+#   api_key: "YOUR_API_KEY"
+
+# llm:
+#   api_type: 'zhipuai'
+#   api_key: 'cae808a6fbf5c5e297ca0c7a741f6403.sQsRv3iYiJF2RxNo'
+#   model: 'glm-3-turbo'
+
+
+# llm:
+#   api_type: 'moonshot'
+#   base_url: 'https://api.moonshot.cn/v1'
+#   api_key: 'sk-TH1iuFhx5nwOkwC7wCopejUqmL4W9Y5UF7hnkXEzjFxGRdjE'
+#   model: 'moonshot-v1-8k'
+
+# llm:
+#   api_type: 'yi'
+#   base_url: 'https://api.lingyiwanwu.com/v1'
+#   api_key: '9fea7b76c9a14107b0fde6c1b3677687'
+#   model: 'yi-34b-chat-0205'
+#   max_token: 4000
+
+
+
+llm:
+  api_type: 'openai' # or azure / ollama / groq etc. Check LLMType for more options
+  api_key: 'sk-3974ca4d36f34d90bd393822efa38e93' # YOUR_API_KEY
+  model: 'deepseek-chat' # or gpt-3.5-turbo
+  base_url: 'https://api.deepseek.com'  # or any forward url.
+  temperature: 0.7
+  max_tokens: 1024,
+  # proxy: 'YOUR_LLM_PROXY_IF_NEEDED'  # Optional. If you want to use a proxy, set it here.
+  # pricing_plan: 'YOUR_PRICING_PLAN' # Optional. If your pricing plan uses a different name than the `model`.
