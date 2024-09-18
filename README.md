@@ -66,7 +66,7 @@ The following are some basic dependency requirements:
 We uploaded the multi-task fine-tuned model and scoring model to hugging face. The following is a simple pytorch demonstration. **Note that it should be used with  [MetaGPT](https://github.com/geekan/MetaGPT).**
 
 ```shell
-cd MetaGPT
+cd stitch
 python demo.py # Remember to fill in the relevant tokenizer and model paths
 ```
 
@@ -77,7 +77,7 @@ The result is shown in the figure:
 ## Model Integration
 
 ```shell
-cd MetaGPT/examples
+cd stitch/examples
 python echo_squad.py # Remember to fill in the file path into the `json_file` variable.
 ```
 
