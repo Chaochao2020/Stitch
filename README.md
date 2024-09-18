@@ -25,6 +25,8 @@ Now, Stitch can be loaded with `transformers` as a PyTorch model.
 
  [RoBERTa_SQuAD ](https://huggingface.co/ChaoChao2023/RoBERTa_squad/tree/main)
 
+
+
 ## Requirements
 
 Stitch's multi task fine-tuning and  model integration are both based on [MFTCoder](https://github.com/codefuse-ai/MFTCoder) and [MetaGPT](https://github.com/geekan/MetaGPT).
@@ -61,20 +63,22 @@ The following are some basic dependency requirements:
 
 ## Pytorch
 
-We uploaded the multi-task fine-tuned model and scoring model to hugging face. The following is a simple pytorch demonstration.
+We uploaded the multi-task fine-tuned model and scoring model to hugging face. The following is a simple pytorch demonstration. **Note that it should be used with  [MetaGPT](https://github.com/geekan/MetaGPT).**
 
 ```shell
 cd MetaGPT
 python demo.py # Remember to fill in the relevant tokenizer and model paths
 ```
 
+The result is shown in the figure:
 
+<img src="img/figure3.jpg" alt="Stitch" style="zoom: 50%;" />
 
 ## Model Integration
 
 ```shell
-cd MetaGPT/example
-python echo.py # Remember to fill in the file path into the `json_file` variable.
+cd MetaGPT/examples
+python echo_squad.py # Remember to fill in the file path into the `json_file` variable.
 ```
 
 
