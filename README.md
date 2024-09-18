@@ -228,7 +228,7 @@ python cappy_promptsource.py --model_name_or_path btan2/cappy-large
 
 #### Results
 
-![Stitch](img\figure1.png)
+![Stitch](img/figure1.png)
 
 
 ### Evaluting Stitch on Model Integration
@@ -237,7 +237,7 @@ python cappy_promptsource.py --model_name_or_path btan2/cappy-large
 
 #### Results
 
-![Stitch](img\figure2.png)
+![Stitch](img/figure2.png)
 
 
 
@@ -247,4 +247,4 @@ python cappy_promptsource.py --model_name_or_path btan2/cappy-large
 
 *Stitch* is one of the main characters in the animated film *Lilo & Stitch*. Although he was initially a powerful alien creature, Stitch later came to understand the power of love and acceptance!
 
-![Stitch](img\Stitch.jpg)
+![Stitch](img/Stitch.jpg)
