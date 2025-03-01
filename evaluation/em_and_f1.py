@@ -55,6 +55,6 @@ def load_jsonl(file_path):
 file_path = ''
 predictions = load_jsonl(file_path)
 
-# 计算并打印评测结果
+
 results = evaluate(predictions)
 print(f"EM: {results['exact_match']:.4f}, F1: {results['f1']:.4f}")
